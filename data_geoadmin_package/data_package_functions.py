@@ -73,7 +73,7 @@ def find_id(layer_name):
 
 def create_folder(layer_name, srcdir, id_layer):
             
-    dest_path = 'Z:/testScripts/data.geo.admin.ch/{0}'.format(layer_name)
+    dest_path = 'N:/5-kogis/5-KOGIS/51-BGDI/5105-Geodienste/5105-04-GeoportalBund/5105-04-02-data_geo_admin_ch/5105-04-02-05-Ordnerstruktur/data.geo.admin.ch/{0}'.format(layer_name)
 
     if os.path.exists(dest_path):
         try:
